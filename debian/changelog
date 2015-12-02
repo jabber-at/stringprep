@@ -3,7 +3,8 @@ erlang-p1-stringprep (0.2015.11.29-0.1) unstable; urgency=medium
   * Imported Upstream version 0.2015.11.29.
   * Add erlang-p1-utils as build dependency.
   * Add remove-deps.patch to remove rebar dependency for p1_utils.
-  * Taking over this package.
+  * Fix debian/copyright.
+  * This is a new maintainer upload.
 
  -- Mathias Ertl <mati@jabber.at>  Wed, 02 Dec 2015 22:53:18 +0100
 
