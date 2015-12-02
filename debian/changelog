@@ -1,4 +1,4 @@
-erlang-p1-stringprep (0.2015.11.29-0,1) unstable; urgency=medium
+erlang-p1-stringprep (0.2015.11.29-0.1) unstable; urgency=medium
 
   * Imported Upstream version 0.2015.11.29.
   * Taking over this package.
