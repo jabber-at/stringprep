@@ -11,11 +11,11 @@ License: GPL-2+
 
 Files: tools/* c_src/uni_data.c c_src/uni_norm.c
 Copyright: 1998-1999 Scriptics Corporation
-License: BSD-style Tcl/Tk license
+License: BSD-style_Tcl/Tk_license
 
 Files: configure
 Copyright: 1992-2010 Free Software Foundation, Inc.
-License:
+License: FSF
  This configure script is free software; the Free Software Foundation
  gives unlimited permission to copy, distribute and modify it.
 
