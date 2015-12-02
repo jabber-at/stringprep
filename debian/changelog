@@ -1,3 +1,10 @@
+erlang-p1-stringprep (0.2015.11.29-0,1) unstable; urgency=medium
+
+  * Imported Upstream version 0.2015.11.29.
+  * Taking over this package.
+
+ -- Mathias Ertl <mati@jabber.at>   Wed, 02 Dec 2015 22:53:18 +0100
+
 erlang-p1-stringprep (0.2013.12.09-3) unstable; urgency=medium
 
   * Added use of dpkg-buildflags to debian/rules
