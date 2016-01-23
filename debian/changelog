@@ -3,6 +3,7 @@ erlang-p1-stringprep (1.0.0-0.1) unstable; urgency=medium
   * New upstream release.
   * Use upstream releases instead of the latest git snapshot.
   * Use upstream-tag format to make use of upstream tags.
+  * Add VCS-* urls in debian/control.
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 23 Jan 2016 14:34:01 +0100
 
