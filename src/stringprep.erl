@@ -5,7 +5,7 @@
 %%% Created : 16 Feb 2003 by Alexey Shchepin <alexey@proces-one.net>
 %%%
 %%%
-%%% stringprep, Copyright (C) 2002-2015   ProcessOne
+%%% stringprep, Copyright (C) 2002-2016   ProcessOne
 %%%
 %%% This program is free software; you can redistribute it and/or
 %%% modify it under the terms of the GNU General Public License as
@@ -35,13 +35,13 @@
 %%% API functions
 %%%===================================================================
 start() ->
-    application:start(p1_stringprep).
+    application:start(stringprep).
 
 load_nif() ->
-    SOPath = p1_nif_utils:get_so_path(?MODULE, [stringprep, p1_strinprep], "stringprep"),
+    SOPath = p1_nif_utils:get_so_path(?MODULE, [stringprep], "stringprep"),
     case catch erlang:load_nif(SOPath, 0) of
         ok -> ok;
-        Err -> error_logger:warning_msg("unable to load xml NIF: ~p~n", [Err]),
+        Err -> error_logger:warning_msg("unable to load stringprep NIF: ~p~n", [Err]),
                {error, unable_to_load_nif}
     end.
 

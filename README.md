@@ -1,6 +1,6 @@
 # Fast Stringprep implementation for Erlang / Elixir
 
-[![Build Status](https://travis-ci.org/processone/stringprep.svg?branch=master)](https://travis-ci.org/processone/stringprep) [![Coverage Status](https://coveralls.io/repos/processone/stringprep/badge.svg?branch=master&service=github)](https://coveralls.io/github/processone/stringprep?branch=master)
+[![Build Status](https://travis-ci.org/processone/stringprep.svg?branch=master)](https://travis-ci.org/processone/stringprep) [![Coverage Status](https://coveralls.io/repos/processone/stringprep/badge.svg?branch=master&service=github)](https://coveralls.io/github/processone/stringprep?branch=master) [![Hex version](https://img.shields.io/hexpm/v/stringprep.svg "Hex version")](https://hex.pm/packages/stringprep)
 
 Stringprep is a framework for preparing Unicode test strings in order
 to increase the likelihood that string input and string comparison
@@ -40,10 +40,13 @@ Fast Stringprep processing tool can be build as follow:
 
     ./configure && make
 
+Configure script recognizes one flag - pass `--enable-gcov` to enable gcov
+coverage reporting.
+
 It is a rebar-compatible OTP application. Alternatively, you can build
 it with rebar:
 
-    rebar compile
+    rebar get-deps compile
 
 ## Usage
 
