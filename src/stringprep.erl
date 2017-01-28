@@ -28,6 +28,8 @@
 
 -author('alexey@process-one.net').
 
+-compile(no_native).
+
 -export([start/0, load_nif/0, tolower/1, nameprep/1,
 	 nodeprep/1, resourceprep/1]).
 
@@ -35,7 +37,10 @@
 %%% API functions
 %%%===================================================================
 start() ->
-    application:start(stringprep).
+    case application:ensure_all_started(stringprep) of
+        {ok, _} -> ok;
+        Er -> Er
+    end.
 
 load_nif() ->
     SOPath = p1_nif_utils:get_so_path(?MODULE, [stringprep], "stringprep"),
