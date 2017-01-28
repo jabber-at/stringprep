@@ -1,3 +1,9 @@
+erlang-p1-stringprep (1.0.7-0.1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Mathias Ertl <mati@jabber.at>  Sat, 28 Jan 2017 16:47:35 +0100
+
 erlang-p1-stringprep (1.0.6-0.1) unstable; urgency=medium
 
   * New upstream release.
