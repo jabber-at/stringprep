@@ -1,6 +1,7 @@
 erlang-p1-stringprep (1.0.9-0.1) unstable; urgency=medium
 
   * New upstream release.
+  * Update Standards-Version to 4.0.0 (no changes needed).
 
  -- Mathias Ertl <mati@jabber.at>  Thu, 06 Jul 2017 21:52:55 +0200
 
