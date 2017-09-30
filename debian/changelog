@@ -2,6 +2,7 @@ erlang-p1-stringprep (1.0.10-0.1) unstable; urgency=medium
 
   * New upstream release.
   * Update watch file.
+  * Merge changes to debian/rules from upstream.
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 30 Sep 2017 11:27:26 +0200
 
