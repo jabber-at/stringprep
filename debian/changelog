@@ -4,6 +4,7 @@ erlang-p1-stringprep (1.0.10-0.1) unstable; urgency=medium
   * Update watch file.
   * Merge changes to debian/rules from upstream.
   * Rename remove-deps.patch to remove-deps.diff to match upstream name.
+  * Run eunit during build.
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 30 Sep 2017 11:27:26 +0200
 
