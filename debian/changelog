@@ -6,6 +6,9 @@ erlang-p1-stringprep (1.0.10-0.1) unstable; urgency=medium
   * Rename remove-deps.patch to remove-deps.diff to match upstream name.
   * Run eunit during build.
   * Update copyright file.
+  * Update Standards-Version to 4.1.0 (no changes needed).
+  * Add erlang-base, erlang-eunit and erlang-syntax-tools to build
+    dependencies.
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 30 Sep 2017 11:27:26 +0200
 
