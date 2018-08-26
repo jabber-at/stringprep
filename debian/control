@@ -1,18 +1,26 @@
 Source: erlang-p1-stringprep
-Priority: optional
 Maintainer: Mathias Ertl <mati@jabber.at>
 XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
-Build-Depends: debhelper (>= 9), dh-rebar, erlang-base, erlang-eunit, erlang-p1-utils (>= 1.0.11), erlang-syntax-tools
-Standards-Version: 4.1.3
 Section: libs
-Homepage: https://github.com/processone/stringprep
+Priority: optional
+Build-Depends: debhelper (>= 11~),
+               dh-rebar,
+               erlang-base (>= 1:19.2),
+               erlang-eunit,
+               erlang-p1-utils (>= 1.0.12),
+               erlang-syntax-tools
+Standards-Version: 4.1.4
 VCS-Git: https://github.com/jabber-at/stringprep.git
 VCS-Browser: https://github.com/jabber-at/stringprep
+Homepage: https://github.com/processone/stringprep
 
 Package: erlang-p1-stringprep
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-base | ${erlang-abi:Depends},
-         ${erlang:Depends}, erlang-p1-utils (>= 1.0.11),
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         erlang-base (>= 1:19.2) | ${erlang-abi:Depends},
+         ${erlang:Depends},
+         erlang-p1-utils (>= 1.0.12)
 Description: erlang interface to stringprep
  This library was written for ejabberd which still uses it.
  It was split off into it's own project to follow
