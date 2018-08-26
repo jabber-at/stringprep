@@ -4,6 +4,7 @@ erlang-p1-stringprep (1.0.12-0.1) unstable; urgency=medium
   * Merge lintian overrides from upstream
   * Use secure copyright format uri in debian/copyright
   * Updated years in debian/copyright
+  * Added debian/upstream/metadata
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 26 Aug 2018 16:44:50 +0200
 
