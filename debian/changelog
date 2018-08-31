@@ -1,11 +1,14 @@
 erlang-p1-stringprep (1.0.12-0.1) unstable; urgency=medium
 
   * New upstream version 1.0.12
-  * Merge lintian overrides from upstream
-  * Use secure copyright format uri in debian/copyright
-  * Updated years in debian/copyright
   * Added debian/upstream/metadata
+  * Updated Standards-Version: 4.1.4 (no changes needed)
+  * Use secure copyright format uri in debian/copyright
   * Switched to debhelper 11
+  * Set Orig-Maintainer: Ejabberd Packaging Team
+    <ejabberd@packages.debian.org>
+  * Updated years in debian/copyright
+  * Merge lintian overrides from upstream
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 26 Aug 2018 16:44:50 +0200
 
